@@ -6,13 +6,13 @@
 
 1. Cloned the repository:
     ```
-    git clone https://github.com/public-apis/public-apis.git
+    git clone https://github.com/begginers-html-css-javaScript.git
     cd public-apis
     ```
 
 2. Forked the repository on GitHub and cloned the forked repository:
     ```
-    git clone https://github.com/YOUR-USERNAME/public-apis.git
+    git clone https://github.com/joek-yo/begginers-html-css-javaScript.git
     cd public-apis
     ```
 
@@ -23,11 +23,10 @@
     git checkout -b feature-update
     ```
 
-2. Made changes to `newfile.txt` and committed:
+2. Made changes to `index.html` and committed:
     ```
-    echo "This is a new file" > newfile.txt
-    git add newfile.txt
-    git commit -m "Add newfile.txt"
+    git add .
+    git commit -m "updates"
     ```
 
 3. Merged changes from `feature-update` branch into `main`:
@@ -38,7 +37,7 @@
 
 ### Handling Conflicts
 
-1. Created a conflict by modifying `newfile.txt` on GitHub and pulling changes:
+1. Created a conflict by modifying `index.html` on GitHub and pulling changes:
     ```
     git pull
     ```
@@ -46,7 +45,7 @@
 2. Resolved conflict and merged:
     ```
     git checkout -b resolve-conflict
-    git add newfile.txt
+    git add .
     git commit -m "Resolve conflict in newfile.txt"
     git checkout main
     git merge resolve-conflict
